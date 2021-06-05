@@ -1,0 +1,161 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap");
+
+.font-lato {
+  font-family: "Lato", sans-serif;
+}
+
+.font-pac {
+  font-family: "Pacifico", cursive;
+}
+
+.font-sac {
+  font-family: "Sacramento", cursive;
+}
+
+.bg-brown {
+  background-color: #4e4c4a;
+}
+
+body {
+  height: 2000px;
+}
+
+.navbar {
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-brand {
+  color: white !important;
+  text-shadow: 1px, 1px, 1px, rgba(0, 0, 0, 0.616);
+}
+.jumbotron {
+  margin-top: -80px;
+  height: 640px;
+  background-image: url(../img/jumbotron.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #f0eae3;
+  position: relative;
+}
+
+.jumbotron .col-lg {
+  z-index: 1;
+  position: relative;
+}
+
+.jumbotron::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, #000000, rgb(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
+}
+
+.jumbotron h3 {
+  padding-top: 5rem;
+  font-size: 90px;
+  text-shadow: 0px 7px 7px rgb(0 0 0 / 30%);
+}
+
+.jumbotron h1 {
+  color: white;
+  text-shadow: 0px 7px 7px rgb(0 0 0 / 30%);
+  font-family: "Clicker Script", cursive;
+  font-weight: bold;
+  font-size: 140px;
+}
+
+.jumbotron hr {
+  border: 0;
+  height: 80px;
+  width: 300px;
+  margin: auto;
+  background-image: url(../img/ornamen/1.png);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+#mempelai,
+#acara {
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+}
+
+#mempelai h3,
+#acara h3 {
+  font-size: 35pt;
+}
+
+#mempelai h5 {
+  font-family: "Clicker Script", cursive;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#mempelai span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#ayat {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #4e4c4a;
+}
+
+#ayat p {
+  font-size: 22px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .jumbotron {
+    margin-top: -60px;
+    height: 400px;
+    background-image: url(../img/jumbotron.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #f0eae3;
+  }
+
+  .jumbotron h3 {
+    padding-top: 7rem;
+    font-size: 35px;
+    text-shadow: 0px 7px 7px rgb(0 0 0 / 30%);
+  }
+
+  .jumbotron h1 {
+    font-size: 40pt;
+  }
+
+  .jumbotron p {
+    font-size: 8pt;
+  }
+
+  .jumbotron h5 {
+    margin-top: -10px;
+    font-size: 10pt;
+  }
+
+  #mempelai h5 {
+    font-size: 40px;
+  }
+
+  #mempelai h3 {
+    font-size: 20pt;
+  }
+
+  #mempelai span {
+    font-size: 15px;
+  }
+
+  #ayat p {
+    font-size: 13px;
+  }
+}
