@@ -94,6 +94,10 @@ body {
   background-color: transparent;
 }
 
+#mempelai {
+  background-color: #f5efe6;
+}
+
 #mempelai,
 #acara {
   padding-top: 3rem;
@@ -124,6 +128,10 @@ body {
 
 #ayat p {
   font-size: 22px;
+}
+
+#acara {
+  background-color: #f5efe6;
 }
 
 .map {
