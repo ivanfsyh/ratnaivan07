@@ -1,172 +1,204 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 
-     <!-- Fontawesome CSS -->
-     <script src="https://kit.fontawesome.com/508a68fe0a.js" crossorigin="anonymous"></script>
+    <!-- Fontawesome CSS -->
+    <script src="https://kit.fontawesome.com/508a68fe0a.js" crossorigin="anonymous"></script>
 
     <!-- Font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sacramento&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Yesteryear&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sacramento&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Yesteryear&display=swap" rel="stylesheet" />
 
     <title>pernikahan</title>
-  </head>
-  <body>
-    
+</head>
+
+<body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg ">
-      <div class="container">
-        <a class="navbar-brand font-pac" href="#">RatnaIvan</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand font-pac" href="#">RatnaIvan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-          </div>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav"></div>
+            </div>
         </div>
-      </div>
     </nav>
     <!-- Navbar -->
 
     <!-- Jumbotron -->
     <section id="home" class="jumbotron">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg text-center">
-            <h3 class="font-sac text-white">Pernikahan</h3>
-            <h1>Ratna & Ivan</h1>          
-            <!-- <hr class="line"> -->
-            <p class="text-white">Akan segera melangsungkan pernikahan suci</p>
-            <h5 class="text-white">07 Agustus 2021 / 28 Dzulhijah 1442 H</h5>       
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <div class="grid-container">
-              <div><span id="hari"></span> <br> hari</div>
-              <div><span id="jam"></span> <br> jam</div>
-              <div><span id="menit"></span> <br> menit</div>  
-              <div><span id="detik"></span> <br> detik</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg text-center">
+                    <h3 class="font-sac text-white">Pernikahan</h3>
+                    <h1>Ratna & Ivan</h1>
+                    <!-- <hr class="line"> -->
+                    <p class="text-white">Akan segera melangsungkan pernikahan suci</p>
+                    <h5 class="text-white">07 Agustus 2021 / 28 Dzulhijah 1442 H</h5>
+                </div>
             </div>
-          </div>  
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="grid-container">
+                        <div>
+                            <span id="hari"></span> <br /> hari
+                        </div>
+                        <div>
+                            <span id="jam"></span> <br /> jam
+                        </div>
+                        <div>
+                            <span id="menit"></span> <br /> menit
+                        </div>
+                        <div>
+                            <span id="detik"></span> <br /> detik
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>            
     </section>
     <!-- Akhir Jumbotron -->
 
     <!-- Mempelai -->
     <section id="mempelai">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg text-center font-sac">
-            <h3>Tentang Kami</h3>
-          </div>        
-        </div>
-        <div class="row">
-          <div class="col-lg mt-2">
-            <div class="card text-center shadow">
-              <div class="card-body">
-                <h5 class="card-title">Ratna Beliandari</h5>
-                <p class="card-text">Putri pertama dari <br> <span>Bapak Sulawan & Ibu Idah Kusnaeni</span> <br> (Desa Pancalang Kecamatan Pancalang)</p>
-              </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg text-center font-sac">
+                    <h3>Tentang Kami</h3>
+                </div>
             </div>
-          </div>
-          <div class="col-lg mt-2">
-            <div class="card text-center shadow">
-              <div class="card-body">
-                <h5 class="card-title">Ivan Firmansyah</h5>
-                <p class="card-text">Putra kedua dari <br> <span>Bapak Johan & Ibu Cucu Sutinah</span> <br> (Desa Randobawailir Kecamatan Mandirancan)</p>
-              </div>
+            <div class="row">
+                <div class="col-lg mt-2">
+                    <div class="card text-center shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Ratna Beliandari</h5>
+                            <p class="card-text">
+                                Putri pertama dari <br />
+                                <span>Bapak Sulawan & Ibu Idah Kusnaeni</span> <br /> (Desa Pancalang Kecamatan Pancalang)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg mt-2">
+                    <div class="card text-center shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Ivan Firmansyah</h5>
+                            <p class="card-text">
+                                Putra kedua dari <br />
+                                <span>Bapak Johan & Ibu Cucu Sutinah</span> <br /> (Desa Randobawailir Kecamatan Mandirancan)
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>      
     </section>
     <!-- Akhir Mempelai -->
 
     <!-- Ayat -->
     <section id="ayat">
         <div class="container">
-          <div class="row">
-            <div class="col-lg">
-              <div class="card text-center">
-                <div class="card-body">
-                  <p class="card-text">Artinya: Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir. <br> <span>[QS. Ar-Rum Ayat 21]</span></p>
+            <div class="row">
+                <div class="col-lg">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <p class="card-text">
+                                Artinya: Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian
+                                itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir. <br />
+                                <span>[QS. Ar-Rum Ayat 21]</span>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
     </section>
     <!-- Ayat Akhir -->
 
     <!-- Acara -->
     <section id="acara">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg text-center font-sac">
-            <h3>Acara Pernikahan</h3>
-          </div> 
-        </div>
-        <div class="row justify-content-center ">
-          <div class="col-lg-8 text-center fs-5 mt-5">
-            <span>ٱلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّٰهِ وَبَرَكَاتُه</span> <br>
-            <p>Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan akad dan resepsi pernikahan kami. Insya Allah akan dilaksanakan pada :</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg mt-4">
-            <div class="card text-center" style="height: 15rem;">
-              <div class="card-body">
-                <h2 class="lingkaran mb-1"><i class="fas fa-hands-helping"></i></h2>
-                <h5>Akad Nikah</h5>
-                <p>Sabtu, 07 Agustus 2021 <br> (28 Dzulhijah 1442 H)</p>
-                <span>08:00 s/d 10:00 WIB</span>
-              </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg text-center font-sac">
+                    <h3>Acara Pernikahan</h3>
+                </div>
             </div>
-          </div>
-          <div class="col-lg mt-4">
-            <div class="card text-center" style="height: 15rem;">
-              <div class="card-body">
-                <h2 class="lingkaran mb-1"><i class="fas fa-house-damage"></i></h2>
-                <h5>Lokasi Hajat</h5>
-                <p>Blok Kliwon RT01/RW05 <br>
-                  Desa Pancalang Kecamatan Pancalang <br>
-                  Kabupaten Kuningan <br>
-                  (Depan Kantor Kecamatan Pancalang)</p>
-              </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center fs-5 mt-5">
+                    <span>ٱلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّٰهِ وَبَرَكَاتُه</span> <br />
+                    <p>
+                        Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan akad dan resepsi pernikahan kami. Insya Allah akan dilaksanakan pada :
+                    </p>
+                </div>
             </div>
-          </div>
-          <div class="col-lg mt-4">
-            <div class="card text-center" style="height: 15rem;">
-              <div class="card-body">
-                <h2 class="lingkaran mb-1"><i class="fas fa-utensils"></i></h2>
-                <h5>Resepsi</h5>
-                <p>Sabtu, 07 Agustus 2021 <br> (28 Dzulhijah 1442 H)</p>
-                <span>10:00 s/d 16:00 WIB</span>
-              </div>
+            <div class="row">
+                <div class="col-lg mt-4">
+                    <div class="card text-center" style="height: 15rem">
+                        <div class="card-body">
+                            <h2 class="lingkaran mb-1"><i class="fas fa-hands-helping"></i></h2>
+                            <h5>Akad Nikah</h5>
+                            <p>
+                                Sabtu, 07 Agustus 2021 <br /> (28 Dzulhijah 1442 H)
+                            </p>
+                            <span>08:00 s/d 10:00 WIB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg mt-4">
+                    <div class="card text-center" style="height: 15rem">
+                        <div class="card-body">
+                            <h2 class="lingkaran mb-1"><i class="fas fa-house-damage"></i></h2>
+                            <h5>Lokasi Hajat</h5>
+                            <p>
+                                Blok Kliwon RT01/RW05 <br /> Desa Pancalang Kecamatan Pancalang <br /> Kabupaten Kuningan <br /> (Depan Kantor Kecamatan Pancalang)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg mt-4">
+                    <div class="card text-center" style="height: 15rem">
+                        <div class="card-body">
+                            <h2 class="lingkaran mb-1"><i class="fas fa-utensils"></i></h2>
+                            <h5>Resepsi</h5>
+                            <p>
+                                Sabtu, 07 Agustus 2021 <br /> (28 Dzulhijah 1442 H)
+                            </p>
+                            <span>10:00 s/d 16:00 WIB</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg mt-4">
-            <div class="card text-center">
-              <div class="card-header"><a class="btn btn-sm btn-success" href="https://goo.gl/maps/JtMMZ9AW2ToeySbH7" target="_blank"><i class="fas fa-map-marker-alt"></i> Link lokasi hajat</a></div>
+            <div class="row">
+                <div class="col-lg mt-4">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <a class="btn btn-sm btn-success" href="https://goo.gl/maps/JtMMZ9AW2ToeySbH7" target="_blank"><i class="fas fa-map-marker-alt"></i> Link lokasi hajat</a
+                >
+              </div>
               <div class="card-body">
-                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3961.5762695689914!2d108.4877236!3d-6.8212772!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f19285f4d8bdb%3A0x506af6eb3e6369ca!2sKantor%20Kecamatan%20Pancalang!5e0!3m2!1sid!2sid!4v1622907646257!5m2!1sid!2sid"  frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe
+                  class="map"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3961.5762695689914!2d108.4877236!3d-6.8212772!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f19285f4d8bdb%3A0x506af6eb3e6369ca!2sKantor%20Kecamatan%20Pancalang!5e0!3m2!1sid!2sid!4v1622907646257!5m2!1sid!2sid"
+                  frameborder="0"
+                  style="border: 0"
+                  allowfullscreen
+                ></iframe>
               </div>
             </div>
           </div>
@@ -175,13 +207,14 @@
     </section>
     <!-- Akhir Acara -->
 
-
-    
-
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
@@ -191,38 +224,37 @@
 
     <script>
       // Set the date we're counting down to
-      var countDownDate = new Date("Aug 7, 2021 08:00:00").getTime();
-      
+      var countDownDate = new Date('Aug 7, 2021 08:00:00').getTime();
+
       // Update the count down every 1 second
-      var x = setInterval(function() {
-      
-          // Get todays date and time
-          var now = new Date().getTime();
-          
-          // Find the distance between now an the count down date
-          var distance = countDownDate - now;
-          
-          // Time calculations for days, hours, minutes and seconds
-          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-          
-          // Output the result in an element with id="demo"
-          document.getElementById("hari").innerHTML = days;
-          document.getElementById("jam").innerHTML = hours;
-          document.getElementById("menit").innerHTML = minutes;
-          document.getElementById("detik").innerHTML = seconds;
-          
-          // If the count down is over, write some text 
-          if (distance < 0) {
-              clearInterval(x);
-              document.getElementById("hari").innerHTML = "0";
-              document.getElementById("jam").innerHTML = "0";
-              ocument.getElementById("menit").innerHTML = "0";
-              ocument.getElementById("detik").innerHTML = "0";
-          }
+      var x = setInterval(function () {
+        // Get todays date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now an the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in an element with id="demo"
+        document.getElementById('hari').innerHTML = days;
+        document.getElementById('jam').innerHTML = hours;
+        document.getElementById('menit').innerHTML = minutes;
+        document.getElementById('detik').innerHTML = seconds;
+
+        // If the count down is over, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById('hari').innerHTML = '0';
+          document.getElementById('jam').innerHTML = '0';
+          document.getElementById('menit').innerHTML = '0';
+          document.getElementById('detik').innerHTML = '0';
+        }
       }, 1000);
-      </script>
+    </script>
   </body>
 </html>
